@@ -26,7 +26,7 @@ public class DataBase {
 //		connexion avec la base de données
 
         try {
-            this.connection=DriverManager.getConnection("jdbc:mysql://localhost:3306/servlet_jsp", "root", "");
+            this.connection=DriverManager.getConnection("jdbc:mysql://localhost:3306/servletDb_jsp", "root", "");
 
         }catch (Exception e) {
             System.out.println(e.getMessage());
